@@ -1,11 +1,11 @@
 {
-  "name": "...",
-  "short_name": "...",
-  "description": "...",
-  "start_url": "...",
-  "theme_color": "...",
-  "background_color": "...",
-  "display": "...",
+  "name": "This is the site name",
+  "short_name": "Shortname",
+  "description": "Desfription",
+  "start_url": "index.html",
+  "theme_color": "cyan",
+  "background_color": "yellow",
+  "display": "abc",
   "icons": [
     {
       "src": "circle.ico",

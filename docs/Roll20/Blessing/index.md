@@ -1,3 +1,25 @@
+<style>
+  body {
+    background-attachment: fixed;
+    background-position: center;
+    max-width: 500px;
+    margin: auto;
+  }
+  html {
+    background-color: #937138;
+  }
+  body {
+    background-color: #ebe0cc;
+  }
+  * {
+    color: #171209;
+  }
+  code {
+    color: black;
+    background-color: white;
+  }
+</style>
+
 # Blessing Effect
 
 ## Introduction
@@ -28,7 +50,7 @@ Besides those specific events, this solution should make Blessing selection supe
 
 1. **Add New Effect**
     - On the **Combat** tab, click the **[+]** and select **Add Effect**
-    - <img src="images/1-AddEffectButton.png" width="80%">
+    - <img src="images/1-AddEffectButton.png">
 
 2. **Enter Effect Details**
     - Make sure the **Add Effect** is what's highlighted at the top
@@ -41,21 +63,21 @@ Besides those specific events, this solution should make Blessing selection supe
     - Click the **[+ Add]** Button under **Modifiers**
     - In the dropdwon, select **Skill Modifier**
       - *Note that once selected it will say* ***"Skill Bonus"***
-    - <img src="images/3-AddSkillModifier.png" width="100%">
+    - <img src="images/3-AddSkillModifier.png">
     - Select the Skill **Intimidation**
     - Put in a **Value** that represents your current bonus needed to get your to Expertise
       - In my example, I am **Untrained** in Intimidation and my **Proficiency Bonus** is **2**, so I put the value as **4** which will grant me **+4 Intimidation** when I have this effect enabled
       - If I later become **Trained** or when my **Proficiency Bonus** goes up I will have to come back and manually change this, but only at those times
     - **Don't Forget to Click Apply**
       - This may not be obvious.  You can click **Save** on the whole Effect and it will look like it worked but if you did not Apply the modifier that part will not be saved
-    - <img src="images/4-SkillBonusDetails.png" width="100%">
+    - <img src="images/4-SkillBonusDetails.png">
     - Once Applied, the Modifier should show and it's very clear what it's doing
       - You can see in this applied Modifier that it is clearly doing a **Skill Modification** to **Intimidation** of **+4**
-    - <img src="images/5-SaveEffect.png" width="100%">
+    - <img src="images/5-SaveEffect.png">
 
 4. **See New Effect**
     - The new Effect will appear on the **Combat** tab under the **Effects** Section along side any other effects that you may have available to you
-    - <img src="images/6-NewEffectOnSheet.png" width="100%">
+    - <img src="images/6-NewEffectOnSheet.png">
 
 
 ## Results:
@@ -63,8 +85,21 @@ Besides those specific events, this solution should make Blessing selection supe
 Now you should be able to freely toggle your Blessing on and off anytime you want to change which blessings are enabled, and you can quickly see on your sheet that you always have exactly one enabled, without ever needing to go manage specific stats or track those details elsewhere
 
 ### What it looks like:
-| Effect Toggle | Skills Header | Intimidation Skill |
-|--|--|--|
-|<img src="images/Blessing-Off.png" width="100%">|<img src="images/Skill-NoEffect.png" width="100%">|<img src="images/Intimidation-NoEffect.png" width="100%">|
-|<img src="images/Blessing-On.png" width="100%">|<img src="images/Skill-WithEffect.png" width="100%">|<img src="images/Intimidation-WithEffect.png" width="100%">|
+<table>
+  <tr>
+    <th>Effect Toggle</th>
+    <th>Skills Header</th>
+    <th>Intimidation Skill</th>
+  </tr>
+  <tr>
+    <th><img src="images/Blessing-Off.png"></th>
+    <th><img src="images/Skill-NoEffect.png"></th>
+    <th><img src="images/Intimidation-NoEffect.png"></th>
+  </tr>
+  <tr>
+    <th><img src="images/Blessing-On.png"></th>
+    <th><img src="images/Skill-WithEffect.png"></th>
+    <th><img src="images/Intimidation-WithEffect.png"></th>
+  </tr>
+</table>
 

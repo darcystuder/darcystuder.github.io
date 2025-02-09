@@ -2,7 +2,7 @@
   body {
     background-attachment: fixed;
     background-position: center;
-    max-width: 500px;
+    max-width: 960px;
     margin: auto;
   }
   html {

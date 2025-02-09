@@ -65,7 +65,7 @@ Besides those specific events, this solution should make Blessing selection supe
     - Apply Effect To: **Skill**
     - Enter the Name and Description.
     - Dice Value and Other Bonus can be left blank
-    - <img src="images/2-NewEffectDetails.png" width="80%">
+    - <img src="images/2-NewEffectDetails.png">
 
 3. **Add Modifier**
     - Click the `[+ Add]` Button under **Modifiers**

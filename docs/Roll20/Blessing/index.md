@@ -16,13 +16,21 @@
   }
   code {
     color: black;
-    background-color: white;
+    background-color: dbc6a3;
+    font-weight: 600;
+    padding: 2px;
+  }
+  td {
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    background-color: black;
   }
 </style>
 
-# Blessing Effect
+# **Blessing Effect**
 
-## Introduction
+## Intro
 
 ### Motivation
 
@@ -49,7 +57,7 @@ Besides those specific events, this solution should make Blessing selection supe
 ## Create Effect: Blessing - Innate Terror
 
 1. **Add New Effect**
-    - On the **Combat** tab, click the **[+]** and select **Add Effect**
+    - On the **Combat** tab, click the `[+]` and select **Add Effect**
     - <img src="images/1-AddEffectButton.png">
 
 2. **Enter Effect Details**
@@ -60,7 +68,7 @@ Besides those specific events, this solution should make Blessing selection supe
     - <img src="images/2-NewEffectDetails.png" width="80%">
 
 3. **Add Modifier**
-    - Click the **[+ Add]** Button under **Modifiers**
+    - Click the `[+ Add]` Button under **Modifiers**
     - In the dropdwon, select **Skill Modifier**
       - *Note that once selected it will say* ***"Skill Bonus"***
     - <img src="images/3-AddSkillModifier.png">
@@ -87,19 +95,34 @@ Now you should be able to freely toggle your Blessing on and off anytime you wan
 ### What it looks like:
 <table>
   <tr>
-    <th>Effect Toggle</th>
-    <th>Skills Header</th>
-    <th>Intimidation Skill</th>
+    <td>Effect Toggle</td>
+    <td>Skills Header</td>
+    <td>Intimidation Skill</td>
   </tr>
   <tr>
-    <th><img src="images/Blessing-Off.png"></th>
-    <th><img src="images/Skill-NoEffect.png"></th>
-    <th><img src="images/Intimidation-NoEffect.png"></th>
+    <td><img src="images/Blessing-Off.png"></td>
+    <td><img src="images/Skill-NoEffect.png"></td>
+    <td><img src="images/Intimidation-NoEffect.png"></td>
   </tr>
   <tr>
-    <th><img src="images/Blessing-On.png"></th>
-    <th><img src="images/Skill-WithEffect.png"></th>
-    <th><img src="images/Intimidation-WithEffect.png"></th>
+    <td><img src="images/Blessing-On.png"></td>
+    <td><img src="images/Skill-WithEffect.png"></td>
+    <td><img src="images/Intimidation-WithEffect.png"></td>
   </tr>
 </table>
 
+---
+
+## Don't Forget!
+
+- The Effect is set as a  **FIXED VALUE** that ***modifies*** your **Intimidation** skill
+  - This should be set to whatever it would take to bring your **Intimidation** skill to the number it would be if you had **Expertise**
+    - If you are already trained in Intimidation, this would be **1x Proficiency Modifier**
+    - If you are untrained, it would be **2x Proficiency Modifier**
+- You will need to edit this **FIXED VALUE** if:
+  - Your training level in **Intimidation** changes, or
+  - Your **Proficiency Modifier** changes
+- Besides the above, you should be able to turn this effect On/Off at will without ever needing to fiddle with your stats directly!
+
+
+Enjoy!

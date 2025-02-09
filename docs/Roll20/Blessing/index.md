@@ -30,6 +30,21 @@
 
 # **Blessing Effect**
 
+## Table of Contents:
+
+
+- [Intro](#intro)
+  - [Motivation](#motivation)
+  - [Solution](#solution)
+  - [Limitations/Constraints](#limitationsconstraints)
+- [Create Effect: Blessing - Innate Terror](#create-effect-blessing---innate-terror)
+  - [Instructions](#instructions)
+  - [Results](#results)
+- [Don't Forget](#dont-forget)
+
+---
+
+
 ## Intro
 
 ### Motivation
@@ -55,6 +70,8 @@ Besides those specific events, this solution should make Blessing selection supe
 
 
 ## Create Effect: Blessing - Innate Terror
+
+### Instructions
 
 1. **Add New Effect**
     - On the **Combat** tab, click the `[+]` and select **Add Effect**
@@ -88,11 +105,12 @@ Besides those specific events, this solution should make Blessing selection supe
     - <img src="images/6-NewEffectOnSheet.png">
 
 
-## Results:
+### Results:
+
 
 Now you should be able to freely toggle your Blessing on and off anytime you want to change which blessings are enabled, and you can quickly see on your sheet that you always have exactly one enabled, without ever needing to go manage specific stats or track those details elsewhere
 
-### What it looks like:
+#### What it looks like:
 <table>
   <tr>
     <td>Effect Toggle</td>
